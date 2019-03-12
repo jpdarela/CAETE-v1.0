@@ -309,7 +309,7 @@ def calc_stats_pools(runs,var):
 
 
 def make_stats(runs):
-    vars_tuple = 'cmass', 'npp', 'photo', 'evapm', 'rcm', 'aresp', 'wue', 'cue'
+    vars_tuple = 'cleaf','cawood','cfroot','cmass', 'npp', 'photo', 'evapm', 'rcm', 'aresp', 'wue', 'cue'
     #     print os.getcwd()
     os.chdir(data_dir)
     res= os.getcwd()
